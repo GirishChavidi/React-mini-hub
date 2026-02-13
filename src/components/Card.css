@@ -1,0 +1,15 @@
+.card-icon {
+  font-size: 32px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Icon animation */
+.card:hover .card-icon {
+  transform: scale(1.2) rotate(5deg);
+}

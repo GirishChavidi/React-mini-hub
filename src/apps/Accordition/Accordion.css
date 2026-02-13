@@ -1,0 +1,58 @@
+.accordion-container {
+  max-width: 450px;
+  margin: 60px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.accordion-title {
+  margin-bottom: 20px;
+}
+
+.toggle-btn {
+  padding: 10px 20px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.toggle-btn:hover {
+  background: #1d4ed8;
+}
+
+.profile-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+}
+
+.profile-card button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-card button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+.accordion-hint {
+  margin-top: 20px;
+  color: #666;
+}
